@@ -5,10 +5,17 @@ export default function Application() {
 	<div>
 		<h1>Job Application Form</h1>
 		<h2>Section 1</h2>
+		<p>All Fields are mandatory</p>
+		<span title='close'>X</span>
+		<img src="https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg" alt="Image Github" />
+		<div data-testid="custom-element">Custom HTML element</div>
 		<form action="">
 			<div>
 				<label htmlFor="name">Name</label>
-				<input type="text" name="name" id="name" placeholder="Fullname" />
+				<input type="text" name="name" id="name" placeholder="Fullname" 
+					value={"Vishwas"}
+					onChange={() => {}}
+				/>
 			</div>
 			<div>
 				<label htmlFor="job-location">Job Location</label>
